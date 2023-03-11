@@ -39,16 +39,21 @@
   position: fixed;
   top:100px;
   left: 500px;
+  z-index: 2;
 }
 .item--yellow{
   background-color: yellow;
   position: absolute;
   right: 50px;
+  left: 60px;
 
 }
 .item--purple{
   background-color: purple;
   position: sticky;
+  top: 400px;
+  bottom: 800px;
+  z-index:1;
 }
 header{
   background-color: rgb(83, 13, 68);
@@ -56,4 +61,5 @@ header{
   width: 100%;
   position:sticky;
   top:10px;
+  z-index: -10;
 }
